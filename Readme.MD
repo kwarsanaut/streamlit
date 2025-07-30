@@ -1,7 +1,5 @@
 # 🇮🇩 Indonesian Social Media Brand Monitoring System
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-name.streamlit.app)
-
 **Real-time sentiment analysis untuk brand Indonesia dengan AI-powered dashboard**
 
 ## 🎯 Project Overview
@@ -22,7 +20,7 @@ Indonesian Social Media Brand Monitoring System adalah solution untuk monitoring
 
 👉 **[Try the live demo here](https://app-test-dashboard.streamlit.app/)**
 
-![Dashboard Preview](https://github.com/kwarsanaut/streamlit/tree/main/images)
+![Dashboard Preview](https://raw.githubusercontent.com/kwarsanaut/streamlit/main/images/Dashboard.png)
 
 ## 🛠️ Technology Stack
 
@@ -150,75 +148,20 @@ print(result)
 ## 🎨 Screenshots
 
 ### Main Dashboard
-![Main Dashboard](https://via.placeholder.com/600x300?text=Main+Dashboard)
+![Main Dashboard](https://raw.githubusercontent.com/kwarsanaut/streamlit/main/images/Dashboard.png)
 
 ### Real-time Analysis
-![Real-time Analysis](https://via.placeholder.com/600x300?text=Real-time+Analysis)
+![Real-time Analysis](https://raw.githubusercontent.com/kwarsanaut/streamlit/main/images/real-analyse.png)
 
 ### Trend Analytics
-![Trend Analytics](https://via.placeholder.com/600x300?text=Trend+Analytics)
-
-## 🚦 Roadmap
-
-### Version 2.0 (Q2 2025)
-- [ ] Real Twitter API integration
-- [ ] Instagram & TikTok data sources
-- [ ] Advanced NLP features (emotion detection)
-- [ ] Multi-brand comparison dashboard
-- [ ] Automated reporting system
-
-### Version 3.0 (Q3 2025)  
-- [ ] Custom model training interface
-- [ ] API endpoints untuk integration
-- [ ] Real-time alerting system
-- [ ] Export capabilities (PDF, Excel)
-- [ ] Mobile app version
-
-## 💼 Business Information
-
-### Service Packages
-- **Starter:** $35/hour - Basic monitoring setup
-- **Professional:** $45/hour - Advanced analytics + dashboard
-- **Enterprise:** $60/hour - Custom solution + API integration
+![Trend Analytics](https://raw.githubusercontent.com/kwarsanaut/streamlit/main/images/tren-analyse.png)
 
 ### Timeline
 - **MVP Implementation:** 2-3 weeks
 - **Full deployment:** 4-6 weeks  
 - **Custom features:** 6-8 weeks
 
-## 🤝 Contributing
 
-Contributions welcome! Please read our contributing guidelines.
-
-1. Fork the repository
-2. Create feature branch: `git checkout -b feature-name`
-3. Commit changes: `git commit -am 'Add feature'`
-4. Push to branch: `git push origin feature-name`
-5. Submit pull request
-
-## 📝 License
-
-This project is licensed under the MIT License - see [LICENSE](LICENSE) file.
-
-## 📞 Contact
-
-**Available for hire:** $35-60/hour  
-**Response time:** Within 24 hours  
-**Timezone:** GMT+7 (Indonesia)
-
-- 📧 **Email:** your.email@example.com
-- 💼 **LinkedIn:** [Your LinkedIn Profile](https://linkedin.com/in/yourprofile)
-- 🌐 **Portfolio:** [Your Portfolio Website](https://yourportfolio.com)
-
-## 🙏 Acknowledgments
-
-- **Anthropic** untuk Claude AI assistance dalam development
-- **HuggingFace** untuk IndoBERT model dan transformers library
-- **Streamlit** untuk amazing dashboard framework
-- **Indonesian NLP Community** untuk datasets dan resources
-
----
-
-⭐ **If this project helps you, please give it a star!** ⭐
+- 📧 **Email:** kwarsarajab@gmail.com
 
 **Built with ❤️ for Indonesian businesses | Portfolio Project 2025**
