@@ -1,7 +1,5 @@
 streamlit
-transformers
-torch
 plotly
 pandas
 numpy
-scikit-learn
+transformers[torch]
