@@ -162,6 +162,6 @@ print(result)
 - **Custom features:** 6-8 weeks
 
 
-- 📧 **Email:** kwarsarajab@gmail.com
+- 📧 **Email:** [kwarsarajab@gmail.com](mailto:kwarsarajab@gmail.com?subject=Indonesian%20Brand%20Monitoring%20Project)
 
 **Built with ❤️ for Indonesian businesses | Portfolio Project 2025**
