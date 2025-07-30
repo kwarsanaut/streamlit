@@ -1,11 +1,18 @@
 # app.py - Indonesian Brand Monitoring Dashboard
 import streamlit as st
 import pandas as pd
-from transformers import pipeline
 import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime, timedelta
 import numpy as np
+
+# Handle transformers import with fallback
+try:
+    from transformers import pipeline
+    TRANSFORMERS_AVAILABLE = True
+except ImportError:
+    TRANSFORMERS_AVAILABLE = False
+    st.error("⚠️ Transformers library not available. Using demo mode.")
 
 # Page config
 st.set_page_config(
@@ -41,6 +48,9 @@ st.markdown("""
 @st.cache_resource
 def load_sentiment_model():
     """Load Indonesian sentiment analysis model"""
+    if not TRANSFORMERS_AVAILABLE:
+        return None
+    
     try:
         return pipeline("sentiment-analysis", 
                        model="ayameRushia/bert-base-indonesian-1.5G-sentiment-analysis-smsa")
@@ -87,8 +97,21 @@ SAMPLE_TWEETS = [
 
 def analyze_sentiment(text, classifier):
     """Analyze sentiment of given text"""
-    if classifier is None:
-        return {"sentiment": "Unknown", "confidence": 0.0}
+    if classifier is None or not TRANSFORMERS_AVAILABLE:
+        # Demo mode - simple keyword-based analysis
+        text_lower = text.lower()
+        positive_keywords = ['bagus', 'mantap', 'keren', 'suka', 'cepat', 'murah', 'recommended']
+        negative_keywords = ['kecewa', 'jelek', 'lambat', 'mahal', 'error', 'buruk', 'susah']
+        
+        pos_count = sum(1 for word in positive_keywords if word in text_lower)
+        neg_count = sum(1 for word in negative_keywords if word in text_lower)
+        
+        if pos_count > neg_count:
+            return {"sentiment": "Positive", "confidence": 0.85}
+        elif neg_count > pos_count:
+            return {"sentiment": "Negative", "confidence": 0.82}
+        else:
+            return {"sentiment": "Neutral", "confidence": 0.75}
     
     try:
         result = classifier(text)
