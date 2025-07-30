@@ -20,9 +20,9 @@ Indonesian Social Media Brand Monitoring System adalah solution untuk monitoring
 
 ## 🚀 Live Demo
 
-👉 **[Try the live demo here](https://your-app-name.streamlit.app)**
+👉 **[Try the live demo here](https://app-test-dashboard.streamlit.app/)**
 
-![Dashboard Preview](https://via.placeholder.com/800x400?text=Dashboard+Screenshot)
+![Dashboard Preview](https://github.com/kwarsanaut/streamlit/tree/main/images)
 
 ## 🛠️ Technology Stack
 
@@ -39,7 +39,7 @@ Indonesian Social Media Brand Monitoring System adalah solution untuk monitoring
 
 1. **Clone repository:**
 ```bash
-git clone https://github.com/yourusername/indonesian-brand-monitoring.git
+git clone https://github.com/kwarsanaut/indonesian-brand-monitoring.git
 cd indonesian-brand-monitoring
 ```
 
