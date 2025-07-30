@@ -151,10 +151,10 @@ print(result)
 ![Main Dashboard](https://raw.githubusercontent.com/kwarsanaut/streamlit/main/images/Dashboard.png)
 
 ### Real-time Analysis
-![Real-time Analysis](https://raw.githubusercontent.com/kwarsanaut/streamlit/main/images/live analyse.png)
+![Real-time Analysis](https://raw.githubusercontent.com/kwarsanaut/streamlit/main/images/live_analyse.png)
 
 ### Trend Analytics
-![Trend Analytics](https://raw.githubusercontent.com/kwarsanaut/streamlit/main/images/Tren analyse.png)
+![Trend Analytics](https://raw.githubusercontent.com/kwarsanaut/streamlit/main/images/Tren_analyse.png)
 
 ### Timeline
 - **MVP Implementation:** 2-3 weeks
